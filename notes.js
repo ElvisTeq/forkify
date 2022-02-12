@@ -508,4 +508,10 @@ allResults.slice(start, end)
 // "M" => when we do any changes on the file
 // then is going to be untracked
 
-// --------------------------------- git commit -m 'Initial commit'
+// --------------------------------- git commit -m `Initial commit`
+// `Initial commit` => name
+// => turns our file back into normal
+// "M" will still show if we make any changes
+
+// --------------------------------- git reset --hard HEAD
+// => to reset any changes made on the "M"
