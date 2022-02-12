@@ -515,3 +515,15 @@ allResults.slice(start, end)
 
 // --------------------------------- git reset --hard HEAD
 // => to reset any changes made on the "M"
+
+// --------------------------------- git commit -m "New feature"
+// => To save/commit any changes to our code
+// => make sure to "init add -A" before committing
+
+// --------------------------------- git log
+// => will log all commits I did
+// => each commit has an ID that we need to use to go back
+// => "Q" or ":q" key to quit the console command
+
+// --------------------------------- git reset HARD "ID" of the "git log"
+// => to go back to previous saving files
