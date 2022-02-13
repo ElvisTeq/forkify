@@ -541,3 +541,7 @@ allResults.slice(start, end)
 // -------------------------------- git chechout new-feature
 // => to select branch to work with
 // new-feature => the name of the branch to select
+
+// -------------------------------- git merge new-feature
+// to merge 2 branch
+// new-feature => the second branch we want to merge with the current one
