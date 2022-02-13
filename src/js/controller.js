@@ -457,6 +457,12 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 //_________________________________________________________
+// Testing git branch
+const newFeature = function () {
+  console.log('Welcome to the application');
+};
+
+//_________________________________________________________
 
 const init = function () {
   bookmarkView.addHandlerRender(controlBookmarks);
@@ -485,6 +491,8 @@ const init = function () {
 
   addRecipeView.addHandlerUpload(controlAddRecipe);
   // When Upload is clicken in the AddRecipe window
+
+  newFeature();
 };
 init();
 
