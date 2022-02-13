@@ -525,5 +525,19 @@ allResults.slice(start, end)
 // => each commit has an ID that we need to use to go back
 // => "Q" or ":q" key to quit the console command
 
-// --------------------------------- git reset HARD "ID" of the "git log"
+// --------------------------------- git reset HARD ID
+// ID =>  ID of the "git log"
 // => to go back to previous saving files
+// => not recommended when we doing a lot of changes
+// => instead we create a new branch for the tree
+
+// -------------------------------- git branch
+// => to log the branch
+
+// -------------------------------- git branch new-feature
+// new-feature => name of the branch
+// => create a new copy of the branch
+
+// -------------------------------- git chechout new-feature
+// => to select branch to work with
+// new-feature => the name of the branch to select
